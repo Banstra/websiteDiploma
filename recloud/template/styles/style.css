@@ -1,0 +1,76 @@
+.monitoring-content {
+	background: #efefef;
+	color: #000;
+	margin-bottom: 10px;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.monitoring-content:hover {
+	cursor: pointer;
+}
+
+.monitoring-content__header {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: space-between;
+
+	padding: 10px 10px 0px 10px;
+}
+
+.monitoring-content__body {
+	padding: 3px 10px 10px 10px;
+}
+
+.monitoring-content__desc,
+.monitoring-content__disable  {
+	color: #7b7b7b;
+}
+
+.monitoring-content__name {
+	font-weight: 600;
+}
+
+.monitoring-content__status {
+	
+}
+
+.monitoring-content__bar {
+	height: 3px;
+	width: 100%;
+	background: #eaeaea;
+}
+
+.monitoring-content__bar-value {
+	background: #ff8c40;
+	height: 3px;
+	max-width: 100%;
+}
+
+.monitoring-content__stats {
+	background: #efefef;
+	color: #000;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.monitoring-content__full,
+.monitoring-content__record {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.monitoring-content__key {
+	font-weight: 600;
+}
+.monitoring-content__value {
+	color: #7b7b7b;
+}
